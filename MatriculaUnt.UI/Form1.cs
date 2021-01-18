@@ -22,6 +22,7 @@ namespace MatriculaUnt.UI
         {
             var AlumnosBL = new AlumnosBL();
             var result = await AlumnosBL.ObtenerAlumnos();
+            // Llenar la Grilla
             dataGridView1.DataSource = result;
         }
     }
