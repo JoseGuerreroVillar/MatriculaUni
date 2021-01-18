@@ -1,0 +1,1 @@
+﻿dotnet ef dbcontext scaffold --use-database-names --context MatriculaUntContext "Server=DESKTOP-4MS4TOR;Database=MatriculaUnt;User Id=sa;Password=abcABC123!;" Microsoft.EntityFrameworkCore.SqlServer -o Model
