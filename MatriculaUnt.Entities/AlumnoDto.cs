@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MatriculaUnt.Entities
 {
-    public class AlumnoDto
+    public class AlumnoDto : Tracker
     {
         public int i_IdAlumnos { get; set; }
         [Required]

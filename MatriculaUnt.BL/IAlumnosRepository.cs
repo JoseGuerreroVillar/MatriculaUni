@@ -10,5 +10,9 @@ namespace MatriculaUnt.BL
     public interface IAlumnosRepository
     {
         public Task<List<AlumnoDto>> ObtenerAlumnos();
+
+        public Task<bool> ActualizarAlumnos(List<AlumnoDto> alumnos);
+
+        public Task<AlumnoDto> ObtenerAlumnoPorId(int id);
     }
 }
