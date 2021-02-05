@@ -23,7 +23,6 @@ namespace MatriculaUnt.Api.Controllers
             try
             {
                 var resul = await _repository.ObtenerAlumnos();
-
                 return Ok(resul);
             }
             catch (Exception)
